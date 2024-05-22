@@ -39,4 +39,6 @@ class TradingStrategy(Strategy):
                 allocation_dict[self.ticker] = 0  # No allocation to AMC
         
         # Return the target allocation based on the defined logic
+
+
         return TargetAllocation(allocation_dict)
